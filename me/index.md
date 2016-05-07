@@ -4,6 +4,7 @@ published: true
 ---
 
 Hey there! My name is Simone Dassi. I am a italian guy who loves tinkering with Arduinos, Raspberry Pi and 8-bit microcontrollers. I also own a Prusa i3 3D printer.  
+  
 
 **Age:** 18  
 
