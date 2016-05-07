@@ -17,6 +17,13 @@ published: true
     </ul>
 </div>
 
-<div class="header">
-  <h1>blog</h1>
+<div class="portfolio">
+  <h1>Web Design:</h1>
+    <ul>
+        {% for websites in site.data.websites %}
+        <li>
+            <a href="{{ websites.url }}">{{ websites.url }}</a>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
