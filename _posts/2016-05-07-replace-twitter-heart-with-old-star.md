@@ -8,6 +8,7 @@ Have you ever felt nostalgic since when Twitter replaced the classic star for fa
 - [Get it for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/)
 - [Get it for Chrome](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe)
 
+  
 Now install the userstyle from [here](https://userstyles.org/styles/120386/replace-twitter-heart-with-the-old-fav-star)
 
 Enjoy!
