@@ -8,7 +8,7 @@ published: true
 
 **Age:** 18
 
-**Programming languages:** C, C++ (&lt3), AVR assembly, Python, Wolfram (&lt3&lt3), VB .NET. I designing UIs, websites and stuff like that. I only love to make it work, not to make it beautiful. I also hate Java.
+**Programming languages:** C, C++ (&lt;3), AVR assembly, Python, Wolfram (&lt;3&lt;3), VB .NET. I designing UIs, websites and stuff like that. I only love to make it work, not to make it beautiful. I also hate Java.
 
 **Fav films:** Star Trek, Star Wars, The Lord of the Rings, Apocalypse Now, Back to the Future.
 
@@ -19,4 +19,3 @@ published: true
 **Games:** League of Legends, Borderlands, Ratchet saga, SWTOR.
 
 **Fav graphic engine:** I'VE JUST TOLD U I HATE THOS FUC \*\*\*\*\*\*
-
