@@ -7,9 +7,9 @@ Hey there! My name is Simone Dassi. I am a italian guy who loves tinkering with 
 
 <br />
 
-# Age: # 18  
+**Age:** 18  
 
-**Programming languages:** C, C++ (<3), AVR assembly, Python, Wolfram (<3<3), VB .NET. I designing UIs, websites and stuff like that. I only love to make it work, not to make it beautiful. I also hate Java.  
+**Programming languages:** C, C++ (<3), AVR assembly, Python, Wolfram (<3<3), VB .NET. I designing UIs, websites and stuff like that. I only love to make it work, not to make it beautiful (That's why this site is an adaptation of [Micah Cowell's basic theme](https://github.com/getmicah/getmicah.github.io)). I also hate Java.  
 
 **Fav films:** Star Trek, Star Wars, The Lord of the Rings, Apocalypse Now, Back to the Future.  
 
@@ -19,4 +19,6 @@ Hey there! My name is Simone Dassi. I am a italian guy who loves tinkering with 
 
 **Games:** League of Legends, Borderlands, Ratchet saga, SWTOR.  
 
-**Fav graphic engine:** I'VE JUST TOLD U I HATE THOS FUC \*\*\*\*\*\*  
+**Fav Youtube video:** [HEYYEYAAEYAAAEYAEYAA](https://www.youtube.com/watch?v=ZZ5LpwO-An4)
+
+**Fav graphic engine:** I'VE JUST TOLD U I HATE THOS FUC \*\*\*\*\*\*
