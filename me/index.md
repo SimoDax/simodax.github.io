@@ -6,6 +6,7 @@ published: true
 ## Hey there! My name is Simone Dassi. I am a italian guy who loves tinkering with Arduinos, Raspberry Pi and 8-bit microcontrollers. I also own a Prusa i3 3D printer.
 
 
+
 **Age:** 18
 
 **Programming languages:** C, C++ (<3), AVR assembly, Python, Wolfram (<3<3), VB .NET. I designing UIs, websites and stuff like that. I only love to make it work, not to make it beautiful. I also hate Java.
