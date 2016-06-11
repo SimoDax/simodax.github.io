@@ -9,7 +9,7 @@ Ever felt frustrated because your modem keeps asking you to login every few minu
 
 By default it is configured to work with zyxel modems with default admin admin username and password, but you can easily make it work for your own device!
 
--To change the credentials, go to **Addons>User Scripts** and open up the options for this script. On the bottom click **Edit this user script**. Look for the line
+- To change the credentials, go to **Addons>User Scripts** and open up the options for this script. On the bottom click **Edit this user script**. Look for the line
 
 	user.value = "admin";
 and change it to 
@@ -19,7 +19,7 @@ Do the same for the line
 
 	password.value = "admin";
     
--To make it work with other modem interfaces you need to open the source code of the login webpage, find the element names of the username and password texboxes and the login button, it should not be difficult to locate it, just right click on the element you need and click **Inspect Element**.
+- To make it work with other modem interfaces you need to open the source code of the login webpage, find the element names of the username and password texboxes and the login button, it should not be difficult to locate it, just right click on the element you need and click **Inspect Element**.
 Once you have it, find the lines 
 
 	var user = document.getElementsByName('Loginuser')[0];
