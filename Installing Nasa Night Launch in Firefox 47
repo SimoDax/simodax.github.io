@@ -1,0 +1,17 @@
+---
+published: true
+tags: firefox
+---
+I've recently updated Firefox to version 47, but the theme I use, Nasa Night Launch, has't been updated since version 45, and it has become incompatible.
+As I want to keep using it while waiting for an update, I've used a workaround to forcibly install the old FF 45 version (there might be some bugs but I don't really care), here is how you do this:
+
+- Download the FF 45 version from [NNL official website](http://mcdavis.dreamhosters.com/nnlopenbeta/index.html)
+- Open the file with any sort of zip/rar archiver
+- Extract the file install.rdf and open it with a text editor
+- Find the line
+	<em:maxVersion>45.*</em:maxVersion>
+  
+  and change 45 to 47. Save it and replace the old file in the acrhive with the updated one 
+- Now open theme.jar with the archiver, you'll find another file named install.rdf, do the same steps as before
+- Close the archiver and open the theme file with Firefox, allow the theme to be installed
+- Enable the theme and enjoy!
