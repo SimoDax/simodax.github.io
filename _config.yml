@@ -3,6 +3,16 @@ name: Simodax blog
 description: Blog about 3d printing, raspberry, arduino and coding
 google_verification: null
 
+keywords:
+  - blog
+  - 3d printing
+  - raspberry
+  - arduino
+  - coding
+  - script
+  - software
+  - automation
+
 twitter:
   username: simo_dax
 
