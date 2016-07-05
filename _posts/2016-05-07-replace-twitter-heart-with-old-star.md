@@ -4,7 +4,7 @@ layout: post
 title: Replace the new Twitter heart with the old star
 tags: quick_scripts
 ---
-Have you ever felt nostalgic since Twitter replaced the classic star for favouring tweets with the new heart-shaped like button? I made a [userstyles.org](http://userstyles.org) style that brings your shiny yellow button back! You just need Firefox or Chrome with the addon Stylish installed in order to use it:
+Have you ever felt nostalgic since Twitter replaced the classic star for favouring tweets with the new heart-shaped like button? I made a [userstyles.org](http://www.userstyles.org) style that brings your shiny yellow button back! You just need Firefox or Chrome with the addon Stylish installed in order to use it:
 
 - [Get it for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/)
 - [Get it for Chrome](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe)
