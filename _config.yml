@@ -3,6 +3,9 @@ name: Simodax blog
 description: Blog about 3d printing, raspberry, arduino and coding
 google_verification: null
 
+twitter:
+  username: simo_dax
+
 
 # File management
 include: [".htaccess"]
