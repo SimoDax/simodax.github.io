@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Greasemonkey script to autologin into your modem
-tags: quick_scripts
+tags: 'quick_scripts, greasemonkey, script, autologin, modem'
 ---
 
 Ever felt frustrated because your modem keeps asking you to login every few minutes? This script will handle the login form for you, you don't evene have to click the "login" button! Just type in your modem address et-voila, you're already logged in and ready to geek around your settings. You need to install the [Greasemonkey](https://addons.mozilla.org/it/firefox/addon/greasemonkey/) addon if you're using Firefox or [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) if you prefer Chrome, then head to [GreasyFork](https://greasyfork.org/en/scripts/20465-zyxel-modem-autologin) and click the install button to get the script.
