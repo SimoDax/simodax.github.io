@@ -35,6 +35,7 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 
+
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
