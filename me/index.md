@@ -15,7 +15,7 @@ Hey there! My name is Simone Dassi. I am a italian guy who loves tinkering with 
 
 **Fav artists:** Daft Punk, M83, Lana del Rey, Enya, sometimes Ellie Goulding.  
 
-**Fav writers:** Tolkien, many others whose i can only remember their books.  
+**Fav writers:** Tolkien, Asimov, many others whose i can only remember their books.  
 
 **Games:** League of Legends, Borderlands, Ratchet saga, SWTOR.  
 
