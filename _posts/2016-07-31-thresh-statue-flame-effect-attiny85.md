@@ -18,6 +18,5 @@ After that I soldered the circuit: it consists of a voltage regulator which conv
 ![schematic](/assets/img/schematic.jpg)
 
 This is the final result: 
-![thresh](/assets/img/thresh2.jpg)
 
-
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/tP1oz"><a href="//imgur.com/tP1oz">Thresh</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
