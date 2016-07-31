@@ -1,0 +1,73 @@
+---
+published: true
+layout: post
+title: Program the ATTiny85 to light up the Championship Thresh figure
+---
+As soon as I unboxed the Championship Thresh statue I got for birthday (:D) I had the idea of adding some lights to make it look better: the head material is semitransparent so I thought I could add a LED on the rear to add a fancy glow effect. The result impressed me, it was really awesome: 
+![first version of the project](/assets/img/thresh1.jpg)
+
+However, it was just a LED attached with some tape and two cables coming from the power supply, it was quite ugly to see that mess behind the statue, so I began to make the project a bit serious: I designed a nice base for Thresh, hollowed the inside to make space for the battery and the circuitry, and added a leaning cave pillar on the back, where the LED is nestled and the cables connected to it are hided. Once I had done the 3d model I printed it with my 3d printer
+![printing](/assets/img/print.jpg)
+
+Then I wanted to add a flame-like effect to the light, so that in the dark you could see the light coming from Thresh fluctuating, like in the in-game skin. This required me to program a microcontroller, the [ATTiny85](http://www.atmel.com/devices/ATTINY85.aspx), to have the led endlessly looping through random light intensities. The code, written in AVR C, is the following: 
+
+    /*
+    * thresh.c
+ 	*
+ 	* Created: 17/05/2016 18:33:58
+ 	* Author : Simone Dassi
+    * 
+    * This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International    License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+ 	*/ 
+
+	#include <avr/io.h>
+	#include <util/delay.h>
+	#include <stdlib.h>
+	
+	#define F_CPU 1000000
+	
+	int main(void)
+	{
+    	/* Replace with your application code */
+	
+		volatile uint8_t lightlevel = 0;
+		volatile uint8_t r;
+		volatile uint8_t oldlightlevel = 0;
+		volatile uint8_t _adsc = 1;
+		
+		TCCR0A = (1<<WGM00)|(1<<WGM01)|(1<<COM0A1)|(0<<COM0A0); // fast pwm, OC0A pin
+		TCCR0B = (1<<CS00); // no prescaling
+		OCR0A = 0; //duty cycle
+		DDRB = (1<<DDB0); //pin 0 output
+		
+		ADMUX = (1<<MUX1)|(1<<ADLAR); //pin 2 adc input, left align
+		ADCSRA = (1<<ADEN)|(1<<ADSC); // turn on and start conversion
+		
+		while(_adsc){
+			_adsc = (ADCSRA & 0b01000000); //wait for conversion to end
+		}
+	
+		srand(ADCH);
+		ADCSRA &= 0x00; //turn adc off
+		
+    	while (1) 
+    	{
+			r = (uint8_t) rand();
+			lightlevel = 100 + r*155/255;
+			//lightlevel = (uint8_t)(r/RAND_MAX*255);
+			for (uint8_t i=oldlightlevel; oldlightlevel<lightlevel ? i<lightlevel  : i>lightlevel; 				oldlightlevel<lightlevel ? i++ : i--) //good luck understanding this
+			{
+				OCR0A = i;
+				_delay_ms(2.8);
+			}
+			oldlightlevel = lightlevel;
+		}
+	}
+    
+Then I soldered the circuit: it consists of a voltage regulator which converts the 9v coming from the battery to a 5v output, the microcontroller and the led attached to it (both requiring 5v), along with a current-limiting resistor:
+![schematic](/assets/img/schematic.jpg)
+
+This is the final result: 
+![thresh](/assets/img/thresh2.jpg)
+
+
