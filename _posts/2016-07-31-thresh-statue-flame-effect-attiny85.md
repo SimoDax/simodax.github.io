@@ -2,6 +2,9 @@
 published: true
 layout: post
 title: Program the ATTiny85 to light up the Championship Thresh figure
+tags: >-
+  attiny85 avr libc c fire effect led thresh championship figure league of
+  legends project
 ---
 As soon as I unboxed the Championship Thresh statue I got for birthday (:D) I had the idea of adding some lights to make it look better: the head material is semitransparent so I thought I could add a LED on the rear to add a fancy glow effect. The result impressed me, it was really awesome: 
 ![first version of the project](/assets/img/thresh1.jpg)
