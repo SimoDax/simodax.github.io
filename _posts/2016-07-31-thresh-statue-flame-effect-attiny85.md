@@ -14,7 +14,7 @@ However, it was just a LED attached with some tape and two cables coming from th
 
 Then I wanted to add a flame-like effect to the light, so that in the dark you could see the light coming from Thresh fluctuating, like in the in-game skin. This required me to program a microcontroller, the [ATTiny85](http://www.atmel.com/devices/ATTINY85.aspx), to have the led endlessly looping through random light intensities. You can find the source code on my [GitHub repo](https://github.com/SimoDax/thresh-glow-attiny85/tree/master)
     
-After that I soldered the circuit: it consists of a voltage regulator which converts the 9v coming from the battery to a 5v output, the microcontroller and the led attached to it (both requiring 5v), along with a current-limiting resistor:
+After that I soldered the circuit: it consists of a voltage regulator which converts the 9v coming from the battery to a 5v output, the microcontroller and the led attached to it (both requiring 5v), along with a current-limiting resistor. You can also add a switch to turn it on and off between the battery and the regulator if you want.
 <a href="/assets/img/schematic.jpg" target="_blank"><img src="/assets/img/schematic.jpg" style="width: 100%" /></a>
 <img src="http://i.imgur.com/l9Pawd9.jpg" style="width: 100%" />
 
