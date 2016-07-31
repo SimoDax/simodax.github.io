@@ -16,6 +16,7 @@ Then I wanted to add a flame-like effect to the light, so that in the dark you c
     
 After that I soldered the circuit: it consists of a voltage regulator which converts the 9v coming from the battery to a 5v output, the microcontroller and the led attached to it (both requiring 5v), along with a current-limiting resistor:
 ![schematic](/assets/img/schematic.jpg)
+![circuit](http://imgur.com/l9Pawd9)
 
 This is the final result: 
 
