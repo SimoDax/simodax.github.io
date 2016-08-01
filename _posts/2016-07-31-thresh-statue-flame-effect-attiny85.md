@@ -7,7 +7,7 @@ tags: >-
   legends project
 ---
 As soon as I unboxed the Championship Thresh statue I got for birthday (:D) I had the idea of adding some lights to make it look better: the head material is semitransparent so I thought I could add a LED on the rear to add a fancy glow effect. The result impressed me, it was really awesome:
-<img src="http://i.imgur.com/gHs8mY3.jpg" style="width: 100%" />
+<img src="http://i.imgur.com/FwfpxAQ.jpg" style="width: 100%" />
 
 
 However, it was just a LED attached with some tape and two cables coming from the power supply, it was quite ugly to see that mess behind the statue, so I began to make the project a bit serious: I designed a nice base for Thresh, hollowed the inside to make space for the battery and the circuitry, and added a leaning cave pillar on the back, where the LED is nestled and the cables connected to it are hidden. Once I had done the 3d model I printed it with my 3d printer:
