@@ -21,5 +21,5 @@ After that I soldered the circuit: it consists of a voltage regulator which conv
 This is the final result: 
 
 <iframe src="https://player.vimeo.com/video/177056749?color=ffffff&byline=0&portrait=0" style="width: 100%; height: 360px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/tP1oz"><a href="//imgur.com/tP1oz">Thresh</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/tP1oz" style="width: 100%"><a href="//imgur.com/tP1oz">Thresh</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
