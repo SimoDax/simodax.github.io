@@ -13,7 +13,7 @@ Hey there! My name is Simone Dassi. I am a italian guy who loves tinkering with 
 
 **Fav films:** Star Trek, Star Wars, The Lord of the Rings, Apocalypse Now, Back to the Future.  
 
-**Fav artists:** Daft Punk, M83, Lana del Rey, Enya, sometimes Ellie Goulding.  
+**Fav artists:** Daft Punk, M83, Lana del Rey, Enya, The Strokes, MGMT, sometimes Ellie Goulding.  
 
 **Fav writers:** Tolkien, Asimov, many others whose i can only remember their books.  
 
