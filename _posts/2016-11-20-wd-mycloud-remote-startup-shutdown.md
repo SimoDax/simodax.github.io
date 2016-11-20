@@ -9,7 +9,7 @@ tags: >-
 
 If you use a WD Nas you'll have almost certanly noticed it has no physical buttons, and the only way to shut it down is a boring procedure through its web interface. Also, there is no way to turn it on, except unplugging and re-plugging the power cable.   
 
-<b>Shutting it down</b>  
+**Shutting it down**  
 
 
 As day passed, this operation began more and more tedious, so I made some researches and managed to ssh into the nas kernel. At this point, a simple	'halt'	was enough to send the unit to sleep, just as you turned it off using the web control panel.
@@ -24,14 +24,14 @@ Now everything you need to do to shut down the server is clicking on that shortc
 
 For reference, here are the lines inside the .bat: 
 
-		@echo off
-		plink sshd@&lt;insert ip here> -pw &lt;insert password here> halt
-		echo The server will shutdown in 60 seconds
-		echo.
-		PAUSE
+	@echo off
+	plink sshd@&lt;insert ip here> -pw &lt;insert password here> halt
+	echo The server will shutdown in 60 seconds
+	echo.
+	PAUSE
   
-  
-##Turning it on  
+<br />
+**Turning it on**  
 
 
 Luckily the Nas supports Wake on Lan, which basically allows to turn it on remotely as long as it has the Lan cable connected. Download the [Wake On Lan Command Line](https://www.depicus.com/wake-on-lan/wake-on-lan-cmd) tool and my batch script [from my github](https://raw.githubusercontent.com/SimoDax/simodax.github.io/master/assets/turn%20on.bat) (right click > save as..). Place it in the same folder you downloaded the tool, in right click on it and create a shortcut to your Desktop. 
