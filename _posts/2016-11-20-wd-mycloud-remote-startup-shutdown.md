@@ -9,7 +9,7 @@ tags: >-
 
 If you use a WD Nas you'll have almost certanly noticed it has no physical buttons, and the only way to shut it down is a boring procedure through its web interface. Also, there is no way to turn it on, except unplugging and re-plugging the power cable.   
 
-##Shutting it down  
+<b>Shutting it down</b>  
 
 
 As day passed, this operation began more and more tedious, so I made some researches and managed to ssh into the nas kernel. At this point, a simple	'halt'	was enough to send the unit to sleep, just as you turned it off using the web control panel.
