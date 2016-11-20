@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: WD MyCloud remote startup and shutdown (Wake on Lan + ssh)
 tags: >-
@@ -39,5 +39,3 @@ Luckily the Nas supports Wake on Lan, which basically allows to turn it on remot
 Now right click on the script and select "Edit". Replace the "<insert mac here>" section with your Nas mac address, ****without**** the ":" and save (You can check the mac address of the device on your modem/router control panel). 
 
 Every time you open the shortcut the script will invoke the Wolcmd tool and broadcast a wol request on your network, turning the MyCloud on.
-
-
