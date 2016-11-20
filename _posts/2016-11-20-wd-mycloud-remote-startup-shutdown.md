@@ -24,11 +24,11 @@ Now everything you need to do to shut down the server is clicking on that shortc
 
 For reference, here are the lines inside the .bat: 
 
-	@echo off
-	plink sshd@&lt;insert ip here> -pw &lt;insert password here> halt
-	echo The server will shutdown in 60 seconds
-	echo.
-	PAUSE
+	 @echo off
+	 plink sshd@<insert ip here> -pw <insert password here> halt
+	 echo The server will shutdown in 60 seconds
+	 echo.
+	 PAUSE
   
 <br />
 **Turning it on**  
