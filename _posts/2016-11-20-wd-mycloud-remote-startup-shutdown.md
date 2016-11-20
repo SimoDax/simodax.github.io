@@ -36,6 +36,6 @@ For reference, here are the lines inside the .bat:
 
 Luckily the Nas supports Wake on Lan, which basically allows to turn it on remotely as long as it has the Lan cable connected. Download the [Wake On Lan Command Line](https://www.depicus.com/wake-on-lan/wake-on-lan-cmd) tool and my batch script [from my github](https://raw.githubusercontent.com/SimoDax/simodax.github.io/master/assets/turn%20on.bat) (right click > save as..). Place it in the same folder you downloaded the tool, in right click on it and create a shortcut to your Desktop. 
 
-Now right click on the script and select "Edit". Replace the "<insert mac here>" section with your Nas mac address, ****without**** the ":" and save (You can check the mac address of the device on your modem/router control panel). 
+Now right click on the script and select "Edit". Replace the "<insert mac here>" section with your Nas mac address, **without** the ":" and save (You can check the mac address of the device on your modem/router control panel). 
 
 Every time you open the shortcut the script will invoke the Wolcmd tool and broadcast a wol request on your network, turning the MyCloud on.
