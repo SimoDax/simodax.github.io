@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://simodax.github.io/</loc>
+  <lastmod>2016-11-20T16:13:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://simodax.github.io/me/</loc>
+  <lastmod>2016-11-20T16:13:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://simodax.github.io/2016/11/20/wd-mycloud-remote-startup-shutdown.html</loc>
+  <lastmod>2016-11-20T16:13:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://simodax.github.io/2016/07/31/thresh-statue-flame-effect-attiny85.html</loc>
+  <lastmod>2016-11-20T16:13:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://simodax.github.io/2016/07/04/nnl-firefox-47.html</loc>
+  <lastmod>2016-11-20T16:13:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://simodax.github.io/2016/06/11/greasemonkey-script-autologin-into-your-modem.html</loc>
+  <lastmod>2016-11-20T16:13:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://simodax.github.io/2016/05/07/replace-twitter-heart-with-old-star.html</loc>
+  <lastmod>2016-11-20T16:13:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://simodax.github.io/2016/05/07/hello-world.html</loc>
+  <lastmod>2016-11-20T16:13:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
