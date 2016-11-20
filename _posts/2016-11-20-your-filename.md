@@ -2,7 +2,9 @@
 published: false
 layout: post
 title: WD MyCloud remote startup and shutdown (Wake on Lan + ssh)
-tags: WD MyCloud remote startup shutdown Wake on Lan wol ssh halt plink putty
+tags: >-
+  WD MyCloud remote startup shutdown Wake on Lan wol ssh halt plink putty
+  quick_scripts
 ---
 
 If you use a WD Nas you'll have almost certanly noticed it has no physical buttons, and the only way to shut it down is a boring procedure through its web interface. Also, there is no way to turn it on, except unplugging and re-plugging the power cable. 
