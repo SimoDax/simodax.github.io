@@ -21,7 +21,8 @@ var love = setInterval(function() {
     $('.heart').each(function() {
         var top = $(this).css("top").replace(/[^-\d\.]/g, '');
         var width = $(this).css("width").replace(/[^-\d\.]/g, '');
-        if (top <= -100 || width >= 150) {
+        //if (top <= -100 || width >= 150) {
+        if (top <= -100) {
             $(this).remove();
         }
     });
