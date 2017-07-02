@@ -39,3 +39,8 @@ Luckily the Nas supports Wake on Lan, which basically allows to turn it on remot
 Now right click on the script and select "Edit". Replace the &lt;insert mac here> section with your Nas mac address, **without** the ":" and save (You can check the mac address of the device on your modem/router control panel). 
 
 Every time you open the shortcut the script will invoke the Wolcmd tool and broadcast a wol request on your network, turning the MyCloud on.
+
+
+**PIC OR IT DIDN'T HAPPEN:**
+
+<iframe src="https://player.vimeo.com/video/223951902?byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
