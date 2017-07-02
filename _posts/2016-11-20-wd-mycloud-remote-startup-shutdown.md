@@ -43,4 +43,4 @@ Every time you open the shortcut the script will invoke the Wolcmd tool and broa
 
 **PIC OR IT DIDN'T HAPPEN:**
 
-<iframe src="https://player.vimeo.com/video/223951902?byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/223951902?byline=0&portrait=0" style="width:inherit;height:auto" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
