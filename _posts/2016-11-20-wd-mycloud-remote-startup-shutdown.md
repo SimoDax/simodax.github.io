@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: WD MyCloud remote startup and shutdown (Wake on Lan + ssh)
+title: WD MyCloud Mirror remote startup and shutdown (Wake on Lan + ssh)
 tags: >-
   WD MyCloud remote startup shutdown Wake on Lan wol ssh halt plink putty
   quick_scripts
